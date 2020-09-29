@@ -1,9 +1,6 @@
 // get inquirer
 const inquirer = require('inquirer');
 
-
-
-
 // array of questions for user
 const questions = () => {
     return inquirer.prompt([
@@ -11,8 +8,8 @@ const questions = () => {
             type: 'input',
             name: "projectTitle",
             message: 'What is the name of you project? (Required)',
-            validate: titleInput => {
-                if(titleInput) {
+            validate: projectTitleInput => {
+                if(projectTitleInput) {
                     return true;
                 } else {
                     console.log('Please enter a title for you project!');
@@ -25,7 +22,7 @@ const questions = () => {
         },
     ]);
 };
-
+questions()
 // function to write README file
 function writeToFile(fileName, data) {
 }
