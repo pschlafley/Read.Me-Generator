@@ -3,7 +3,6 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ## Description
 
-
   ## Table of Contents
 
   * [Installation](#installation)
@@ -14,20 +13,17 @@ function generateMarkdown(data) {
 
   ## Installation
 
-
   ## Usage
-
 
   ## Credits
 
-
   ## License
-
 
   ## Badges
 
 
   ## Contributing
+  
 
   ## Tests
 `;
