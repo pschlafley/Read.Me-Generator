@@ -1,10 +1,8 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `
-  # ${data.title}
+
+  # Portfolio Generator
   
   ## Description
-  ${data.description}
+  Generates a portfolio based off of user input
 
   ## Table of Contents
 
@@ -29,7 +27,3 @@ function generateMarkdown(data) {
   
 
   ## Tests
-`;
-}
-
-module.exports = generateMarkdown;
