@@ -20,8 +20,8 @@
   ## Usage
   After the user clones the repo onto their local machine. Go to the root of the directory in which you cloned the repo. Open the command line and type "node index.js" (without the parentheses). The application will prompt the user for questions using npm's inquirer package and will generate a read me based off of the user's questions.
   
-   ./utils/images/test.png
-
+ ![test] (./utils/images/test.png)
+ 
   ## 
   
   

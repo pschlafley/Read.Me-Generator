@@ -26,7 +26,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
   
-  ${![data.screenshotsAlt] || ''} ${(data.screenshotFilePath) || ''}
+  ![${data.screenshotsAlt || ''}] (${data.screenshotFilePath || ''})
 
   ## ${data.creditsTitle || ''}
   ${data.credits || ''}
