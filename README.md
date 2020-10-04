@@ -32,6 +32,6 @@
 
   ## Links
   Here is a link to a video that demonstrates the project 
-  *[video demonstration](.https://drive.google.com/file/d/1nkMXS4tP3IdT-JdwtWMxMTYDZRykLlnA/view?usp=sharing)  
-  *[README generated file calld txt.md](https://drive.google.com/file/d/1IqhKYMr6JOloqaJwuqD2rux-whz3od9p/view?usp=sharing)
-  *[README generator repo](https://github.com/pschlafley/Read.Me-Generator)
+  * [video demonstration](.https://drive.google.com/file/d/1nkMXS4tP3IdT-JdwtWMxMTYDZRykLlnA/view?usp=sharing)  
+  * [README generated file calld txt.md](https://drive.google.com/file/d/1IqhKYMr6JOloqaJwuqD2rux-whz3od9p/view?usp=sharing)
+  * [README generator repo](https://github.com/pschlafley/Read.Me-Generator)
