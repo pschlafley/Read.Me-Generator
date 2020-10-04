@@ -3,7 +3,7 @@
   ![GitHub license](https://img.shields.io/badge/license-MIT-orange.svg)
   
   ## Description
-  You will be able to generate a template for a readMe.md file for your projects. The application goes through best practices for making a readMe and generates it based on how you answer the questions. 
+  You will be able to generate a template for a readMe file for your projects. The application goes through best practices for making a readMe and generates it based on how you answer the questions. 
 
   ## Table of Contents
 
@@ -25,8 +25,13 @@
   ![template literal](./utils/images/generateMarkdown.png)
   ![terminal with questions and answers](./utils/images/terminal.png)
   ![readMe file that application generates](./utils/images/txt-md.png)  
-  
 
   ## Questions
   If you have any questions you can visit my github profile at <https://github.com/>
   or you can email me at <pschlafley0@gmail.com>
+
+  ## Links
+  Here is a link to a video that demonstrates the project 
+  *[video demonstration](.https://drive.google.com/file/d/1nkMXS4tP3IdT-JdwtWMxMTYDZRykLlnA/view?usp=sharing)  
+  *[README generated file calld txt.md](https://drive.google.com/file/d/1IqhKYMr6JOloqaJwuqD2rux-whz3od9p/view?usp=sharing)
+  *[README generator repo](https://github.com/pschlafley/Read.Me-Generator)
