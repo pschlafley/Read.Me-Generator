@@ -21,7 +21,7 @@
   ## Usage
   All you have to do is follow the steps provided up above. Then you will open up the terminal in the root directory of your project. Once you are in the terminal you will type "node index.js" (without the quotes of course). Then all you have to do is answer each question and the app will generate a ReadMe template for you! 
   
-  ![generated readMe file](./utils/images/example-readme.png)
+  >![generated readMe file](./utils/images/example-readme.png)
   ![template literal](./utils/images/generateMarkdown.png)
   ![terminal with questions and answers](./utils/images/terminal.png)
   ![readMe file that application generates](./utils/images/txt-md.png)  

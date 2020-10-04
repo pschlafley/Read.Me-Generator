@@ -182,6 +182,7 @@ function init() {
     questions()
     // after the user answers the questions, get their answers and write it to the txt.md file
     .then(data => {
+        console.log(data);
         writeToFile('txt.md',data)
     })
 }
