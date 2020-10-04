@@ -123,6 +123,46 @@ const questions = () => {
             message: 'What Licenses do you have for your application?',
             choices: ['Apache Licenses 2.0', 'GNU GPLv3', 'MIT', 'ISC', 'Mozilla Public License 2.0', 'Boost Software License 1.0', 'The Unilicense']
         },
+
+        {
+            type: 'input',
+            name: 'contributing',
+            message: 'If you have any guide-lines for contributing to this application provide them here.'
+        },
+
+        {
+            type: 'input',
+            name: 'tests',
+            message: 'If you have instructions for running tests for the application write them here'
+        },
+
+        {
+            type: 'input',
+            name: 'githubprofile',
+            message: 'Enter the link to your github profile (Required)',
+            validate: profileInput => {
+                if(profileInput) {
+                    return true; 
+                } else {
+                    console.log('Please enter your github profile!');
+                    return false;
+                }
+            }
+        },
+
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Enter your email address for people to reach you (Required)',
+            validate: emailInput => {
+                if(emailInput) {
+                    return true; 
+                } else {
+                    console.log('Please enter your email!');
+                    return false;
+                }
+            }
+        },
     ]);
 };
 
@@ -131,7 +171,9 @@ const questions = () => {
 // function to write README file
 function writeToFile(fileName, data) {
     // creates a readMe file
-    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
+    fileName = fs.writeFile('txt.md', generateMarkdown((data)), (err => {
+        if (err) throw err;
+    }))
 }
 
 // function to initialize program
@@ -139,8 +181,8 @@ function init() {
     // get questions to prompt the user for input
     questions()
     // after the user answers the questions, get their answers and write it to the txt.md file
-    .then(answers => {
-        writeToFile('txt.md', generateMarkdown({...answers}))
+    .then(data => {
+        writeToFile('txt.md',data)
     })
 }
 

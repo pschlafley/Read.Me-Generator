@@ -6,7 +6,7 @@ function generateMarkdown(data) {
   return `
   # ${data.title}
 
-  ![GitHub license](https://img.shields.io/badge/license-${newLicenseName}-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license-${newLicenseName}-orange.svg)
   
   ## Description
   ${data.description}
@@ -15,8 +15,11 @@ function generateMarkdown(data) {
 
   * [Installation](#installation)
   * [Usage](#usage)
-  * [${data.creditsTitle}](#${data.creditsTitle})
+  * [Credits](#credits)
   * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
 
   ## Installation
@@ -28,13 +31,21 @@ function generateMarkdown(data) {
   
   ![${data.screenshotsAlt || ''}](${data.screenshotFilePath || ''})
 
-  ## ${data.creditsTitle || ''}
+  ## Credits
   ${data.credits || ''}
   
   ## License
-  Copyright (c) ${data.license}
+  ${data.license}
+
+  ## Contributing
+  ${data.contributing}
 
   ## Tests
+  ${data.tests}
+
+  ## Questions
+  If you have any questions you can visit my github profile at <${data.githubprofile}>
+  or you can email me at <${data.email}>
 `;
 }
 
