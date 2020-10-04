@@ -38,7 +38,7 @@ function generateMarkdown(data) {
   ${data.license}
 
   ## Contributing
-  ${data.contributing}
+  This app is licensed under ${data.contributing}
 
   ## Tests
   ${data.tests}
